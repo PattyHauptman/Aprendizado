@@ -1,0 +1,35 @@
+# A proposta era a criação de uma calculadora com as 4 operações básicas e que retornasse uma mensagem de erro se a operação selecionada fosse inválida.
+
+print("\n-----> CALCULADORA BÁSICA <-----")
+
+x = "s"
+
+while x == "s":
+    print("""\n Operações:
+    1 - Adição
+    2 - Subtração
+    3 - Multiplicação
+    4 - Divisão)
+    """)
+    opera = int(input("Por favor, escolha a operação desejada (1, 2, 3 ou 4): "))
+
+    n1 = int(input("\nDigite o primeiro número: "))
+    n2 = int(input("Digite o segundo número: "))
+
+    soma = n1 + n2
+    subtracao = n1 - n2
+    multiplicacao = n1 * n2
+    divisao = n1 / n2
+
+    if opera == 1:
+        print(f"\n O resultado é: {soma}")
+    elif opera == 2:
+        print(f"\n O resultado é: {subtracao}")
+    elif opera == 3:
+        print(f"\n O resultado é: {multiplicacao} ")
+    elif opera == 4:
+        print(f"\n O resultado é: {divisao}")
+    else:
+        print("\n Escolha uma opção válida.")
+
+    x = input("\n Deseja fazer outro cálculo? Responda s (sim) ou n (não): ")
