@@ -1,3 +1,8 @@
+# Recebendo dados do usuário
+# Convertendo a entrada de string para float
+# Calculando
+# Retornando o valor retornado
+
 TF = input("Digite uma temperatura em fahrenheit: ")
 
 temp = float(TF)
