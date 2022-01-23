@@ -1,3 +1,5 @@
+![GitHub_Logo](python-g178289092_1280.jpg)
+
 # AprendizadoPython
 
 ## **Descrição**
